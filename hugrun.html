@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hugrun</title>
         <link rel="stylesheet" href="./css/hugrun.css" />
+        <link rel="stylesheet" href="./css/hugrunResponsive.css">
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -21,37 +22,70 @@
     </head>
     <body>
         <header>
-        <nav>
-            <div class="logo">
-            <a href="./hugrun.html"
-                ><img src="./images/hugrun_logo.svg" alt="logo here"
-            /></a>
-            </div>
-            <div class="nav-right-content">
-            <div class="nav-content">
-                <ul>
-                <li><a href="#home">Home</a></li>
-                <li>
-                    <a href="#">Article</a>
-                    <ul class="dropdown-content">
-                    <li><a href="#">For Parents</a></li>
-                    <li><a href="#">Mental Health</a></li>
-                    </ul>
-                </li>
-                <li><a href="#booking">Book Lecture</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="country-flag-toogle">
-                <a href="#"><img src="./images/island.png" alt="#" /></a>
-                <a href="#"
-                ><img src="./images/eng.png" alt="#" class="active"
-                /></a>
-                <a href="#"><img src="./images/poland.png" alt="#" /></a>
-            </div>
-            </div>
-        </nav>
-    </header>
+            <nav>
+                <div class="logo">
+                    <a href="./hugrun.html"><img src="./images/hugrun_logo.svg" alt="logo here" /></a>
+                </div>
+                <div class="nav-right-content">
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li>
+                                <a href="#">Article</a>
+                                <ul class="dropdown-content">
+                                    <li><a href="#">For Parents</a></li>
+                                    <li><a href="#">Mental Health</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#booking">Book Lecture</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="language-toggle">
+                        <div class="selected-language">
+                            <img src="./images/eng.png" alt="English" id="current-flag" class="flag-circle" />
+                            <span id="current-lang-text">EN</span>
+                        </div>
+                        <select id="language-select" onchange="changeLanguage()">
+                            <option value="en" data-img="./images/eng.png">English</option>
+                            <option value="is" data-img="./images/island.png">Icelandic</option>
+                            <option value="pl" data-img="./images/poland.png">Polish</option>
+                        </select>
+                    </div>
+                    <div class="mobile-menu-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="mobile-nav-content">
+                    <div class="top-nav">
+                        <div class="logo">
+                            <a href="./hugrun.html"
+                                ><img src="./images/hugrun_logo.svg" alt="logo here"
+                            /></a>
+                            </div>
+                        <div class="mobile-close-icon">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <p onclick="myFunction()" class="dropbtn">Article</p>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="#home">For Parents</a>
+                                        <a href="#about">Mental Health</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#booking">Book Lecture</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <section id="home">
         <div class="home-article">
             <a href="#" class="left-home-content"
@@ -143,7 +177,7 @@
         <section id="mindful">
         <div class="mindful-image-div">
             <div class="mindful-content">
-            <h2>" Let's Take Care of Mental Health. Let's Be #Mindful "</h2>
+            <h2>" Let's Take Care of Mental Health. Let's Be #Huguð "</h2>
             <button><a href="#">Read More</a></button>
             </div>
         </div>
@@ -197,11 +231,12 @@
             </div>
             <div class="copy-right">
                 &copy; 2020 Copyright:
-                <a href="https://gedfraedsla.is/en/"
-                ><span>Hugrún.com</span></a>
+                <a href="https://gedfraedsla.is/"
+                ><span>gedfraedsla.is</span></a>
             </div>
         </div>
     </div>
     </footer>
+    <script src="./js/hugrun.js"></script>
 </body>
 </html>

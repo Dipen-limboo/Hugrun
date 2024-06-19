@@ -96,33 +96,42 @@ header nav{
     font-weight: 400;
 }
 
-
-.country-flag-toogle{
+.language-toggle {
     display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
     align-items: center;
-    width: 6.8rem;
+    position: relative;
+    width: 3rem;
+    text-decoration: underline;
 }
 
-.country-flag-toogle img{
-    height: 1.5rem;
-    width: 1.875rem;
-    border: 1px solid var(--button-color);
-    opacity: 84%;
+.selected-language {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
-.country-flag-toogle img:hover{
-    height: 1.75rem;
-    width: 2rem;
-    transition: 0.5s ease;
-} 
-
-.country-flag-toogle .active{
-    height: 1.75rem;
-    width: 2rem;
+.flag-circle {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.3rem;
 }
 
+#language-select {
+    position: absolute;
+    top: 0;
+    padding: 1rem 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#language-select option{
+    padding: 0.2rem 0;
+}
 
 
 /* Home section */
@@ -345,6 +354,7 @@ button:hover > a{
 
 .emergency-content p{
     color: red;
+    width: 100%;
 }
 
 .emergency-image img {
