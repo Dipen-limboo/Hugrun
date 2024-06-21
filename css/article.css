@@ -1,0 +1,126 @@
+#articles {
+    display: flex;
+    gap: 1rem; 
+    cursor: pointer;
+}
+
+
+
+.articles-categories {
+    padding: 1.5rem 0 0 5rem;
+    position: sticky;
+    top: 2rem; 
+    width: 24rem;
+    height: calc(100vh - 8rem); 
+    overflow-y: auto; 
+}
+
+.articles-contents {
+    padding: 1.5rem 5rem 3rem 0 ;
+    padding-left: 1rem;
+    width: calc(100% - 20rem); 
+}
+
+
+
+ol {
+    list-style: decimal;
+    padding-left: 50px;
+}
+
+.articles-categories{
+    cursor: pointer;
+}
+
+.articles-title h1 {
+    font-size: 24px;
+    color: var(--font-color);
+    opacity: 0.95;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.articles-title p{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.articles-title p a{
+    color: var(--font-color);
+    opacity: 75%;
+    font-size: 1.1rem;
+}
+
+hr{
+    height: 2px;
+    background-color: var(--button-color);
+    margin-bottom: 1rem;
+}
+
+
+.articles-title p a:hover{
+    opacity: 1;
+}
+
+
+.articles-contents h6 {
+    font-size: 0.85rem;
+    opacity: 0.90;
+    letter-spacing: 0.5px;
+    color: var(--emergency-color);
+    align-items: center;
+}
+
+.articles-contents-heading .date{
+    padding-bottom: 1rem;
+}
+
+.articles-contents h6 span {
+    font-size: 0.75rem;
+    font-style: italic;
+    opacity: 0.75;
+    letter-spacing: 0.5px;
+}
+
+.articles-contents .logo img{
+    height: 2rem;
+    width: 3.5rem;
+}
+
+.articles-content-body {
+    text-align: justify;
+}
+
+.articles-content-body h3{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1rem;
+    color: var(--button-color);
+    opacity: 0.99;
+}
+
+.articles-content-body img {
+    width: 32rem;
+    height: 28rem;
+    margin-left: 10rem;
+}
+
+.articles-content-body p, .articles-content-body ol li{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: var(--button-color);
+    opacity: 0.95;
+}
+
+
+.articles-content-body ol li{
+    padding: 0.2rem 0 ;
+}
+
+.articles-content-body h4{
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: var(--button-color);
+    font-weight: bolder;
+}
