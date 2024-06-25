@@ -49,7 +49,7 @@
                                 </ul>
                             </li>
                             <li><a href="#booking">Book a Lecture</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="./html/about.html#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="language-toggle">
@@ -85,8 +85,8 @@
                                 <div class="dropdown">
                                     <p onclick="myFunction()" class="dropbtn">Articles</p>
                                     <div id="myDropdown" class="dropdown-content">
-                                        <a href="#home">For Parents</a>
-                                        <a href="#about">Mental Health</a>
+                                        <a href="./html/articles.html">For Parents</a>
+                                        <a href="./html/articles.html">Mental Health</a>
                                     </div>
                                 </div>
                             </li>
@@ -131,6 +131,9 @@
             <img src="./images/life.svg" alt="life logo" />
             <p>WHERE TO GO?</p>
             </div>
+        </div>
+        <div>
+            <a href="javascript:void(0);" id="scrollToTop"> <div class="circle"> <i class="fa-solid fa-arrow-up"></i> </div></a>
         </div>
         </section>
         <section id="booking">
@@ -181,7 +184,7 @@
                 as psychiatric wards within hospitals, require a referral from a
                 healthcare provider and are therefore not included here.
             </p>
-            <button><a href="#">Read More</a></button>
+            <button><a href="./html/resources.html">Read More</a></button>
             </div>
         </div>
         </section>
@@ -230,7 +233,8 @@
                         </div>
                     </div>
                     <p><a href="#booking">Book Lecture</a></p>
-                    <p><a href="#">Contact</a></p>
+                    <p><a href="./html/about.html#contact">Contact</a></p>
+                    <p><a href="./html/about.html#about">About</a></p>
                 </div>
                 
                 <div class="footer-column">
@@ -249,5 +253,15 @@
     </div>
     </footer>
     <script src="./js/hugrun.js"></script>
+    <script>
+        document.getElementById('scrollToTop').addEventListener('click', function() {
+            setTimeout(function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }, 0);
+        });
+    </script>
 </body>
 </html>

@@ -253,6 +253,20 @@ header nav{
     opacity: 0.7;
 }
 
+.circle {
+    position: fixed;
+    top: 85%;
+    left: 95%;
+    padding: 0.8rem 1rem;
+    background-color: var(--button-color);
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    z-index: 111111 ;
+}
+
+.circle i {
+    color: var(--primary-color);
+}
 
 /* book section */
 

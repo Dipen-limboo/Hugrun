@@ -33,7 +33,7 @@ ol {
 }
 
 .articles-title h1 {
-    font-size: 24px;
+    font-size: 1.3rem;
     color: var(--font-color);
     opacity: 0.95;
     padding-bottom: 1rem;
@@ -43,6 +43,7 @@ ol {
 .articles-title p{
     padding: 1rem;
     cursor: pointer;
+    position: relative;
 }
 
 .articles-title p a{
@@ -51,10 +52,16 @@ ol {
     font-size: 1.1rem;
 }
 
+#current-page a{
+    color: var(--emergency-color);
+    opacity: 1;
+}
+
 hr{
     height: 2px;
     background-color: var(--button-color);
     margin-bottom: 1rem;
+    width: 15rem;
 }
 
 
@@ -65,7 +72,7 @@ hr{
 
 .articles-contents h6 {
     font-size: 0.85rem;
-    opacity: 0.90;
+    opacity: 1;
     letter-spacing: 0.5px;
     color: var(--emergency-color);
     align-items: center;
@@ -78,7 +85,7 @@ hr{
 .articles-contents h6 span {
     font-size: 0.75rem;
     font-style: italic;
-    opacity: 0.75;
+    opacity: 0.9;
     letter-spacing: 0.5px;
 }
 
@@ -100,11 +107,7 @@ hr{
     opacity: 0.99;
 }
 
-.articles-content-body img {
-    width: 32rem;
-    height: 28rem;
-    margin-left: 10rem;
-}
+
 
 .articles-content-body p, .articles-content-body ol li{
     font-size: 1rem;
@@ -124,3 +127,4 @@ hr{
     color: var(--button-color);
     font-weight: bolder;
 }
+
