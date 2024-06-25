@@ -97,7 +97,47 @@
             </div>
         </nav>
     </header>
-    <section id="about"></section>
+    <section id="about">
+        <div class="about--description">
+            <div class="about-content">
+                <h1>Our Story</h1>
+                <p>Hugrún, founded in spring 2016 by University of Iceland students in nursing, medicine, and psychology, focuses on mental health education. Now, students from the University of Reykjavik and the University of Akureyri also participate. Our organization aims to educate young people on mental health, disorders, and resources, increasing social awareness.</p> <br> 
+                <p>Our primary annual task is delivering free mental health lectures at high schools across Iceland. We also host educational evenings, run writing campaigns for International Mental Health Day, and speak at youth centers, parent councils, and student associations. In 2018, we launched the Huguð campaign web magazine to foster open discussion about mental disorders, accessible via our website. Our Instagram, <a href="https://www.instagram.com/gedfraedsla/">@gedfraedsla</a> , offers mental health tips.</p> <br> 
+                <p>University students can volunteer as educators, meeting criteria and completing training to give lectures. Hugrún operates on grants, donations, and fundraising, with all proceeds supporting youth mental health education. Our website, updated since autumn 2016, provides accessible educational material on mental health and disorders. where the organization posts good tips for improved mental health.</p> <br> 
+            </div>
+            <div class="about--image">
+                <img src="../images/about.png" alt="#">
+            </div>
+        </div>
+        <div class="about--us">
+            <h2>Members of Hugrún have a common interest in educating young people about the importance of mental health.</h2>
+        </div>
+        <div>
+            <a href="javascript:void(0);" id="scrollToTop"> <div class="circle"> <i class="fa-solid fa-arrow-up"></i> </div></a>
+        </div>
+    </section>
+    <section id="booking">
+        <div class="book-image">
+            <img src="../images/lecture.png" alt="#" />
+        </div>
+        <div class="book-content-div">
+            <h2 >BOOK A LECTURE</h2>
+            <p>It is easy to book a lecture on mental health and mental disorders from Hugrún's lecturers. You need to send an email to <span>hugrunhugur@gmail.com</span>  or contact us by way of <a href="https://www.facebook.com/gedfraedsla/">Hugrún's Facebook page</a>.</p>
+            <p>Hugrún provides education for young people and the lecture is made for first year students in upper secondary schools. We have also undertaken training in community centres. The education addresses mental health, mental disorders and resources. If there are special requests, please state them.</p>
+            <p>Everyone involved in Hugrún's activities are volunteers and the education is free.</p>
+        </div>
+    </section>
+    <section id="support">
+        <div class="book-content-div">
+            <h2 >Support Hugrún</h2>
+            <p>You can make voluntary contributions to Hugrún by making a donation to account no. <span>0331-26-002581</span> , ID no. <span>590716-0490</span>.</p>
+            <p>Hugrún funds education for young people about mental health and mental disorders throughout the country with voluntary contributions and grants. Everyone involved in Hugrún's activities is a volunteer, and members do not accept payments.</p>
+            <p>If you choose to make a donation in a way other than by bank transfer, we ask that you contact Hugrún's board at hugrunhugur@gmail.com or by way of <a href="https://www.facebook.com/gedfraedsla/">Hugrún's Facebook page</a>.</p>
+        </div>
+        <div class="book-image">
+            <img src="../images/donation.png" alt="#" />
+        </div>
+    </section>
     <section id="contact"></section>
     <footer>
         <div class="footer">
@@ -156,5 +196,15 @@
     </div>
     </footer>
     <script src="../js/hugrun.js"></script>
+    <script>
+        document.getElementById('scrollToTop').addEventListener('click', function() {
+            setTimeout(function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }, 0);
+        });
+    </script>
 </body>
 </html>

@@ -149,7 +149,7 @@
             undertaken training in community centres. The education addresses
             mental health, mental disorders and resources.
             </p>
-            <button><a href="#">Book Now</a></button>
+            <button id="book-now-button">Book Now</button>
         </div>
         </section>
         <section id="support-info">
@@ -184,7 +184,7 @@
                 as psychiatric wards within hospitals, require a referral from a
                 healthcare provider and are therefore not included here.
             </p>
-            <button><a href="./html/resources.html">Read More</a></button>
+            <button id="resource-button">Read More</button>
             </div>
         </div>
         </section>
@@ -192,7 +192,7 @@
         <div class="mindful-image-div">
             <div class="mindful-content">
             <h2>" Let's Take Care of Mental Health. Let's Be #Huguð "</h2>
-            <button><a href="#">Read More</a></button>
+            <button id="testimonials-button">Read More</button>
             </div>
         </div>
         </section>
@@ -261,6 +261,15 @@
                     behavior: 'smooth'
                 });
             }, 0);
+        });
+        document.getElementById('book-now-button').addEventListener('click', function() {
+            window.location.href = './html/about.html#booking';
+        });
+        document.getElementById('resource-button').addEventListener('click', function() {
+            window.location.href = './html/resources.html';
+        });
+        document.getElementById('testimonials-button').addEventListener('click', function() {
+            window.location.href = './html/testimonials.html';
         });
     </script>
 </body>

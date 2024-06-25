@@ -128,3 +128,111 @@ hr{
     font-weight: bolder;
 }
 
+
+/* about page */
+
+
+.about--description {
+    padding: 0 2rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about-content {
+    width: 58%;
+    color: var(--font-color);
+}
+
+.about-content h1 {
+    opacity: 0.95;
+    text-transform: uppercase;
+    font-size: 1.65rem;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.about-content p{
+    font-size: 1rem;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+.about--image {
+    margin-top: 2rem;
+    height:28rem;
+    width: 27rem;
+    padding: 1rem;
+    border: 2px solid var(--emergency-color);
+    border-right: none;
+}
+
+.about--image img{
+    width: 100%;
+}
+
+
+.about--us {
+    margin: 2rem 0 0 0;
+    background: var(--button-color);
+    color: var(--primary-color);
+}
+
+.about--us h2 {
+    font-size: 1.4rem;
+    padding: 4rem 7rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+
+.book-content-div p span, .book-content-div p a, .about-content p a{
+    color: var(--button-color);
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.book-content-div p span:hover, .book-content-div p a:hover, .about-content p a:hover{
+    color: var(--emergency-color);
+    transition: 0.5s ease;
+} 
+
+
+.book-content-div h2{
+    padding-top: 4rem;
+    font-size: 1.65rem; 
+    opacity: 0.95; 
+    padding-bottom:0.65rem
+}
+
+.book-content-div p{
+    padding-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+.book-image{
+    border: 2px solid var(--emergency-color);
+    border-left: none;
+    padding: 1rem;
+}
+
+#booking{
+    background: var(--primary-color);
+    padding: 4rem 5rem;
+}
+
+#support {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+#support .book-image{
+    border: 2px solid var(--emergency-color);
+    border-right: none;
+}
+

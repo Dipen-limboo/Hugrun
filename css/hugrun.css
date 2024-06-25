@@ -307,7 +307,7 @@ header nav{
 
 .book-content-div p, .emergency-content p, .resources p {
     color: var(--font-color);
-    opacity: 60%;
+    opacity: 0.9;
     text-align: justify;
     line-height: 28px;
     text-align: justify;
@@ -319,6 +319,9 @@ button{
     background-color: var(--button-color);
     border-radius: 10px;
     border: 1px solid transparent;
+    color: var(--primary-color);
+    font-size: 1rem;
+    opacity: 90%;
 }
 
 button a{
@@ -331,6 +334,7 @@ button:hover{
     background-color: var(--primary-color);
     border: 1.5px solid var(--button-color);
     transition: 0.5s ease;
+    color: var(--button-color);
 }
 
 button:hover > a{
