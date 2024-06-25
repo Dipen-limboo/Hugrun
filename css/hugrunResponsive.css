@@ -291,7 +291,7 @@
         margin: 0;
     }
 
-    .dropdown {
+    .dropdown { 
         position: relative;
         display: inline-block;
     }
@@ -312,7 +312,7 @@
     }
     
     .dropdown a:hover {background-color: #ddd;}
-    .show {display: block;}
+    .shows {display: block;}
 
 
     .top-nav .logo img{
@@ -343,5 +343,9 @@
     .book-content-div {
         width: 100%;
         padding: 1.2rem;
+    }
+
+    section#resources {
+        padding: 0.5rem;
     }
 }

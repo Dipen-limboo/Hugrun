@@ -31,29 +31,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function toggleDropdown(item) {
-    const dropdown = item.querySelector('.dropdown');
-    const isVisible = dropdown.classList.toggle('show');
-    const items = document.querySelectorAll('.item');
-    items.forEach(function (it) {
-        if (it !== item) {
-            const dd = it.querySelector('.dropdown');
-            dd.classList.remove('show');
-        }
-    });
-    const plus = item.querySelector('.plus');
-    plus.textContent = isVisible ? '-' : '+';
-}
-
-window.addEventListener('click', function (event) {
-    if (!event.target.closest('.item')) {
-        const dropdowns = document.querySelectorAll('.dropdown');
-        dropdowns.forEach(function (dropdown) {
-            dropdown.classList.remove('show');
-        });
-        const plusSigns = document.querySelectorAll('.plus');
-        plusSigns.forEach(function (plus) {
-            plus.textContent = '+';
-        });
-    }
-});

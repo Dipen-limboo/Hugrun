@@ -26,35 +26,35 @@
     color: #aaa;
 }
 
-.dropdown {
+.drop {
     display: none; 
     padding: 10px;
     border-top: none;
     width: 100%;
 }
 
-.dropdown ul {
+.drop ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.dropdown ol{
+.drop ol{
     margin-left: 2rem;
 }
 
-.dropdown ol li {
+.drop ol li {
     padding: 10px;
     border-bottom: 1px solid #ddd;
     color: var(--font-color);
     opacity: 0.9;
 }
 
-.dropdown ol li:last-child {
+.drop ol li:last-child {
     border-bottom: none;
 }
 
-.dropdown ol li:hover {
+.drop ol li:hover {
     background-color: #f2f2f2;
 }
 

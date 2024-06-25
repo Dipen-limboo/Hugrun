@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown").classList.toggle("shows");
 }
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
@@ -42,8 +42,8 @@ window.onclick = function(event) {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
+        if (openDropdown.classList.contains('shows')) {
+            openDropdown.classList.remove('shows');
         }
     }
     }
