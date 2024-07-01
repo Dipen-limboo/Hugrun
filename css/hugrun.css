@@ -71,6 +71,7 @@ header nav{
     width: 100%;
 }
 
+
 .nav-content ul li .dropdown-content {
     display: none;
     position: absolute;
@@ -332,7 +333,7 @@ button a{
 
 button:hover{
     background-color: var(--primary-color);
-    border: 1.5px solid var(--button-color);
+    border: 1px solid var(--button-color);
     transition: 0.5s ease;
     color: var(--button-color);
 }
