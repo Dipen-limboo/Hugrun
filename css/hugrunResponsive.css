@@ -348,4 +348,12 @@
     section#resources {
         padding: 0.5rem;
     }
+
+    .testimonials-content-div, .testimonials-image-div{
+        width: 100%;
+    }
+
+    .testimonials-content-div{
+        order: 1;
+    }
 }
