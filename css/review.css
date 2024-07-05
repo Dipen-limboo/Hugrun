@@ -36,6 +36,7 @@
     font-size: 3.65rem;
     font-weight: 500;
     align-items: center;
+    cursor: pointer;
 }
 
 .reviews--img-div h5 a{
@@ -85,5 +86,124 @@
 }
 
 
+section#campaign-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem 2rem 5rem ;
+    align-items: center;
+}
 
 
+.campaign-div-content {
+    width: 50%;
+}
+
+.campaign-div-content {
+    color: var(--font-color);
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.campaign-div-content p {
+    padding-bottom: 0.2rem;
+}
+
+.campaing-content-image {
+    padding: 1rem;
+    width: 48%;
+    border: 1.5px solid var(--emergency-color);
+    border-right: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    min-height: 70vh;
+}
+
+.campaing-content-image img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    height: 68vh;
+}
+
+
+section#campaign-content-II {
+    padding: 3rem 5rem;
+    letter-spacing: 1px;
+}
+
+section#campaign-content-II h2, .campaign-div-content h2 {
+    text-align: left;
+    color: var(--emergency-color);
+    font-size: 1.65rem;
+    padding-bottom: 0.5rem;
+}
+
+section#campaign-content-II p{
+    color: var(--font-color);
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+section#campaign-content-II blockquote p {
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    color: var(--emergency-color);
+    opacity: 0.95;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 3rem;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.campaign-content-img{
+    margin-top: 3.5rem;
+}
+
+#campaign-content_III .campaign-div-content{
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+#campaign-content_III .campaign-content-img{
+    border: none;
+    width: auto;
+    padding: 1rem 10rem;
+    margin: 0;
+}
+
+.campaign-content-img-II{
+    width: 40vw;
+    margin-top: 3rem;
+}
+
+.campaign-content-img-II img{
+    height: 80vh;
+}
+
+section#next_campaign {
+    padding: 2rem 5rem;
+    text-align: right;
+    cursor: pointer;
+}
+
+.next_campaign_heading h2 {
+    color: var(--font-color);
+    opacity: 0.9;
+}
+
+.next_campaign_heading h2 a i{
+    color: var(--button-color);
+    opacity: 0.9;
+}
+
+.next_campaign_heading h2 a i:hover{
+    color: var(--emergency-color);
+    transition: 1s ease;
+}
