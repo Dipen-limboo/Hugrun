@@ -124,6 +124,9 @@
     }
 
     
+
+
+    
 }
 
 @media (max-width: 480px) {
@@ -355,5 +358,125 @@
 
     .testimonials-content-div{
         order: 1;
+        min-height: 50vh;
+        padding: 2rem 1rem;
+    }
+    .about-content{
+        width:100%;
+    }
+
+    .about--image{
+        height: auto;
+        margin-top: 0;
+    }
+
+    .about--us h2{
+        padding-right: 0;
+        padding-left:0;
+
+    }
+
+    .about--description{
+        padding: 1rem 1rem;
+    }
+
+    #support {
+        padding: 1rem 1rem;
+    }
+    .book-content-div h2 {
+        padding-top: 1rem;
+    }
+    #bod{
+        margin: 1rem .5rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+    #contact {
+        padding:2rem 0; 
+    }
+
+    .form-row {
+        flex-wrap:wrap;
+        gap: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .contact-left{
+        width: 100%;
+        padding: 0.5rem 3.8rem;
+        margin-top: 2rem;
+    }
+
+    .circle{
+        left:86%;
+    }
+    
+    .form-div textarea{
+        padding: 0.5rem 0;
+    }
+
+    .form-btn input{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonials-image-div{
+        min-height: 60vh;
+    } 
+    .testimonials-image-div img {
+        height: 100%;
+    }
+
+
+    .review--head-content{
+        padding: 1rem;
+    }
+
+    .review-head-video iframe{
+        margin: 0;
+        width: 100%;
+        height: 9rem;
+    }
+
+    section#campaign-content{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .campaign-div-content{
+        order: 1;
+        width: 100%;
+    }
+
+    .campaing-content-image{
+        width: 100%;
+    }
+    section#campaign-content-II{
+        padding: 1rem;
+    }
+    section#campaign-content-II h2, .campaign-div-content h2 {
+        font-size: 1.45rem;
+    }
+    blockquote p{
+        font-size: 2rem;
+    }
+
+    #campaign-content_III .campaign-div-content{
+        padding:1rem;
+    }
+
+    #campaign-content_III .campaign-content-img {
+        width: 100%;
+        padding:0;
+    }
+    
+    section#next_campaign{
+        padding: 1rem;
+    }
+
+    .next_campaign_heading h2 {
+        font-size: 1rem;
     }
 }

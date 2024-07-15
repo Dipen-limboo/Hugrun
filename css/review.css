@@ -196,9 +196,9 @@ section#campaign-content-II blockquote p {
 }
 
 section#next_campaign {
-    padding: 2rem 5rem;
-    text-align: right;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5.15rem;
 }
 
 .next_campaign_heading h2 {
@@ -301,4 +301,10 @@ section#next_campaign {
 .italic{
     font-style: italic;
     opacity: 0.7;
+}
+
+
+#next_campaign{
+    display: flex;
+    flex-direction: row;
 }
