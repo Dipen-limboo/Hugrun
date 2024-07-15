@@ -19,7 +19,13 @@
     width: calc(100% - 20rem); 
 }
 
+.articles-categories-mobile{
+    display: none;
+}
 
+.mobile-category{
+    display: none;
+}
 
 ol {
     list-style: decimal;

@@ -307,4 +307,9 @@ section#next_campaign {
 #next_campaign{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
+}
+
+.right{
+    margin-left: 84%;
 }

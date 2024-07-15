@@ -479,4 +479,59 @@
     .next_campaign_heading h2 {
         font-size: 1rem;
     }
+
+    .reviews--img-div h5{
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    .articles-categories{
+        display: none;
+    }
+
+    .articles-contents{
+        width: 100%;
+        padding:1rem;
+        padding-top: 0;
+    }
+
+    .articles-contents .logo img {
+        height: 2.5rem;
+    }
+    
+    .mobile-category{
+        display: block;
+        margin:0;
+        padding-left: 1rem;
+    }
+    #articles{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .mobile-close-icon i{
+        color: black;
+    }
+
+    .articles-categories-mobile {
+        display: none; 
+        position: fixed;
+        top: 95px;
+        left: 0;
+        width: 80%;
+        min-height: 80%;
+        background-color: rgba(255, 255, 255, 0.9); 
+        z-index: 1000; 
+    }
+
+    .mobile-category button {
+        border-radius: 2px;
+        padding: 0.2rem;
+        margin-top: 7px;
+        font-size: 0.65rem;
+    }
+
+    .midImg{
+        margin-left:0;
+    } 
 }
